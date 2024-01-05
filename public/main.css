@@ -1,0 +1,100 @@
+/* Your code here */
+#game-and-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#winner {
+    height: 10em;
+}
+
+#game-area {
+    display: grid;
+    grid-template-areas:
+    "square0 square1 square2"
+    "square3 square4 square5"
+    "square6 square7 square8";
+    width: 10em;
+    height: 10em;
+    box-sizing: border-box;
+    margin-right: 20em;
+}
+
+#square-0 {
+    grid-area: square0;
+    border-right: 1px solid black;
+    width: 10em;
+    height: 10em;
+}
+
+#square-1 {
+    grid-area: square1;
+    border-right: 1px solid black;
+    width: 10em;
+    height: 10em;
+}
+
+
+#square-2 {
+    grid-area: square2;
+    width: 10em;
+    height: 10em;
+}
+
+#square-3 {
+    grid-area: square3;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    width: 10em;
+    height: 10em;
+}
+
+#square-4 {
+    grid-area: square4;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    width: 10em;
+    height: 10em;
+}
+
+#square-5 {
+    grid-area: square5;
+    border-top: 1px solid black;
+    width: 10em;
+    height: 10em;
+}
+
+#square-6 {
+    grid-area: square6;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    width: 10em;
+    height: 10em;
+}
+
+#square-7 {
+    grid-area: square7;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    width: 10em;
+    height: 10em;
+}
+
+#square-8 {
+    grid-area: square8;
+    border-top: 1px solid black;
+    width: 10em;
+    height: 10em;
+}
+
+#buttons {
+    display: flex;
+    margin-top: 25em;
+}
+
+#new-game {
+    display: none;
+}
